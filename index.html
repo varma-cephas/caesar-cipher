@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Caesar Cipher</title>
+        <link rel="stylesheet" href="css/main.css">
+        <!-- google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+        <!-- google fonts -->
+    </head>
+    <body>
+        <section>
+            <h1>CAESAR CIPHER</h1>
+            <div class="encryption-decryption-outer-container">
+                <div class="encryption-decryption-container">
+                    <form class="encryption-form">
+                        <input type="text" placeholder="Enter text" class="input-field encryption-text">
+                        <input type="text" placeholder="Enter encryption key" class="input-field encryption-key">
+                        <input type="submit" value="Encrypt" class="cipher-button">
+                        <h4>Result: <span class="encryption-result"></span> </h4>
+                    </form>
+                    <form class="decryption-form">
+                        <input type="text" placeholder="Enter text" class="input-field decryption-text">
+                        <input type="text" placeholder="Enter decryption key" class="input-field decryption-key">
+                        <input type="submit" value="Decrypt" class="cipher-button">
+                        <h4>Result: <span class="decryption-result"></span> </h4>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <script src="js/script.js"></script>
+    </body>
+</html>
